@@ -1,4 +1,4 @@
-'''import time     # imported library for the function time.sleep
+import time     # imported library for the function time.sleep
 print("WILLKOMMEN BEI DER BANK IHRES VERTRAUENS")
 print("****************************************")
 abheben_str = input("Wie viel möchten Sie abheben? ")
@@ -28,36 +28,5 @@ abheben_int = abheben_int - anzahl_10 * 10
 
 rest = abheben_int
 print("Rest: " + str(rest))
-'''
-
-print("WILLOMMEN BEI DER BANK IHRES VERTRAUENS")
-print("****************************************")
-
-Betrag= int(input("Wie viel möchten Sie abheben?"))
-
-print("Eingegebener Geldbetrag:")
-print(Betrag, "CHF")
-
-print("Bite warten...")
 
 
-
-
-hunderter= Betrag // 100
-print("100er:", hunderter)
-
-
-fünfziger = Betrag % 100// 50
-print("50er:", fünfziger)
-
-
-zwanziger=Betrag % 100%50//20
-print("20er:",zwanziger)
-
-
-zehner= Betrag % 100% 50% 20 // 10
-print("10er:", zehner)
-
-rest=Betrag% 100% 50% 20% 10
-
-print("rest:", rest)
